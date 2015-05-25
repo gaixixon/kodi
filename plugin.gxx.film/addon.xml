@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+  id="plugin.gxx.film"
+  version="1.0.1"
+  name="FilmOn"
+  provider-name="gaixixon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch online video</summary>
+    <description>Watch Korean, US drama and 18+++ contents from internet sources..</description>
+    <platform>all</platform>
+  </extension>
+</addon>
