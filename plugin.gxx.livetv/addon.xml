@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon
-  id="plugin.gxx.livetv"
-  version="1.0.1"
-  name="Live TV"
-  provider-name="gaixixon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver" version="0.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
+<addon id="plugin.gxx.livetv"
+       name="LiveTV"
+       version="1.0.1"
+       provider-name="gaixixon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch Vietnamese LiveTV channels</summary>
-    <description>Watch Vietnamese LiveTV channels and other worlds TV from internet sources..</description>
-    <platform>all</platform>
-  </extension>
-</addon>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch Vietnamese LiveTV</summary>
+        <description lang="en">LiveTV streaming</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
+        <platform>all</platform>
+    </extension>
+    </addon>

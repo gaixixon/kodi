@@ -1,63 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon
-  id="plugin.gxx.film"
-  version="1.0.1"
-  name="FilmOn"
-  provider-name="gaixixon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver" version="0.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
+<addon id="plugin.gxx.film"
+       name="FilmOn"
+       version="1.0.1"
+       provider-name="gaixixon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch online video</summary>
-    <description>Watch Korean, US drama and 18+++ contents from internet sources..</description>
-    <platform>all</platform>
-  </extension>
-</addon>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch hot Korean, US drama and 18++ contents online</summary>
+        <description lang="en">Stream full length drama and 18+ movies from multiple sources.</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
+        <platform>all</platform>
+    </extension>
+    </addon>
 
-<addon
-  id="plugin.gxx.livetv"
-  version="1.0.1"
-  name="Live TV"
-  provider-name="gaixixon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.urlresolver" version="0.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
+<addon id="plugin.gxx.livetv"
+       name="LiveTV"
+       version="1.0.1"
+       provider-name="gaixixon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch Vietnamese LiveTV channels</summary>
-    <description>Watch Vietnamese LiveTV channels and other worlds TV from internet sources..</description>
-    <platform>all</platform>
-  </extension>
-</addon>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch Vietnamese LiveTV</summary>
+        <description lang="en">LiveTV streaming</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
+        <platform>all</platform>
+    </extension>
+    </addon>
 
-<addon id="repository.gxx"
-		name="Add-ons by gxx"
-		version="1.0.1"
-		provider-name="gaixixon">
-	  <requires>
-	    <import addon="xbmc.addon" version="12.0.0"/>
-	  </requires>
-		<extension point="xbmc.addon.repository"
-			name="gxx Add-on Repository">
-			<info compressed="true">https://raw.githubusercontent.com/gaixixon/kodi/master/addon.xml</info>
-			<checksum>https://raw.githubusercontent.com/gaixixon/kodi/master/addon.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/gaixixon/kodi/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">addons by gaixixon</summary>
-			<description lang="en"></description>
-			<disclaimer lang="en"></disclaimer>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-			<forum>http://forums.addons.center/board/21-gaixixon-addons/</forum>
-		</extension>
+<addon id="repository.gxx" name="Add-ons by gaixixon" version="1.0.1" provider-name="gaixixon">
+	<extension point="xbmc.addon.repository" name="gaixixon's Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/gaixixon/kodi/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install gaixixon's add-ons</summary>
+		<description>http://forums.addons.center/board/21-gaixixon-addons/</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
