@@ -7,7 +7,8 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install gaixixon's add-ons</summary>
-		<description>http://forums.addons.center/board/21-gaixixon-addons/</description>
+		<forum>http://forums.addons.center/board/21-gaixixon-addons/</forum>
+		<description>Addons by gaixixon</description>
 		<platform>all</platform>
 	</extension>
 </addon>

@@ -35,11 +35,10 @@ def addItem(Name, Url, Icon):
  
  
 def list_server():
-        print 'nothing'
         addCategory('xemphimhan.com' , base_url+'?action=list_cat&server=xemphimhan.com' , 'DefaultFolder.png')
         #addCategory('xuongphim.tv' , base_url+'?action=list_cat&server=xuongphim.tv' , 'DefaultFolder.png')
         #addCategory('biphim.com' , base_url+'?action=list_cat&server=biphim.com' , 'DefaultFolder.png')
-        addCategory('beeg.com' , base_url+'?action=list_ep&server=beeg.com&url=http://beeg.com' , 'DefaultFolder.png')
+        #addCategory('beeg.com' , base_url+'?action=list_ep&server=beeg.com&url=http://beeg.com' , 'DefaultFolder.png')
  
 def list_cat():
  if server == 'xemphimhan.com':
