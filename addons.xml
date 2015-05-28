@@ -19,6 +19,11 @@
         <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
         <platform>all</platform>
     </extension>
+    	<extension point="xbmc.addon.repository" name="gaixixon's Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/gaixixon/kodi/master/</datadir>
+	</extension>
     </addon>
 
 <addon id="plugin.gxx.film"
@@ -41,6 +46,11 @@
         <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
         <platform>all</platform>
     </extension>
+    	<extension point="xbmc.addon.repository" name="gaixixon's Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/gaixixon/kodi/master/</datadir>
+	</extension>
     </addon>
 
 <addon id="plugin.gxx.livetv"
@@ -61,6 +71,11 @@
         <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
         <platform>all</platform>
     </extension>
+    	<extension point="xbmc.addon.repository" name="gaixixon's Add-ons">
+		<info compressed="false">https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/gaixixon/kodi/master/</datadir>
+	</extension>
     </addon>
 
 <addon id="repository.gxx" name="Add-ons by gaixixon" version="1.0.1" provider-name="gaixixon">
