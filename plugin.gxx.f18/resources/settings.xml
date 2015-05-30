@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="username" type="text" default="" label="User name" enable="False" />
+    <setting id="password" type="text" default="" option="hidden"  enable="!eq(1,)" label="Password"/>
+    <setting id="foo" type="text" default = "" enable="!eq(-2,)" option = "hidden" label = 'f00'/>
+</settings>

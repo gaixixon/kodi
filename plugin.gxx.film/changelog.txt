@@ -1,0 +1,17 @@
+1.1.2
+- Fix zingserver link
+
+1.1.1
+- Add xuongphim.tv
+
+1.0.3
+- Remove 18+ contents to another addon
+
+1.0.2
+- Change icon
+
+1.0.1
+- Fix some minor bug
+
+1.0.0
+- Initial release
