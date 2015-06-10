@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.gxx.film"
        name="FilmOn"
-       version="1.1.1"
+       version="1.1.11"
        provider-name="gaixixon">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver"/>
-        <import addon="script.module.beautifulsoup" version="3.2.1"/>
 	   <import addon="plugin.video.youtube"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -19,9 +17,4 @@
         <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
         <platform>all</platform>
     </extension>
-    	<extension point="xbmc.addon.repository" name="gaixixon's Add-ons">
-		<info compressed="false">https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/gaixixon/kodi/master/</datadir>
-	</extension>
-    </addon>
+</addon>
