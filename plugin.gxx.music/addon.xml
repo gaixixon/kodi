@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.gxx.music"
-       name="Music Fever1.0.2"
+       name="Music Fever"
        version="1.0.2"
        provider-name="gaixixon">
     <requires>

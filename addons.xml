@@ -21,7 +21,7 @@
 </addon>
 
 <addon id="plugin.gxx.music"
-       name="Music Fever1.0.2"
+       name="Music Fever"
        version="1.0.2"
        provider-name="gaixixon">
     <requires>
