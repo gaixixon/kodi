@@ -80,7 +80,7 @@ class Generator:
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u("\n</addons>\n")
         # save file
-        self._save_file( addons_xml.encode( "UTF-8" ), file="addons.xml" )
+        self._save_file( addons_xml.encode( "UTF-8" ), file="master_repo" )
  
     def _generate_md5_file( self ):
         # create a new md5 hash
