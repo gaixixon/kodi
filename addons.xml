@@ -72,8 +72,8 @@
     </addon>
 
 <addon id="plugin.gxx.music"
-       name="Music Fever"
-       version="1.0.2"
+       name="Music Feverzzzzzzzz"
+       version="1.0.3"
        provider-name="gaixixon">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
