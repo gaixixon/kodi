@@ -23,8 +23,8 @@
 
 <addon id="plugin.gxx.film"
        name="FilmOn"
-       version="1.1.11"
-       provider-name="gaixixon">
+       version="1.1.13"
+       provider-name="gaixixon@gmail.com">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 	   <import addon="plugin.video.youtube"/>
