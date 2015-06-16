@@ -22,9 +22,10 @@
 
 <addon id="repository.gxx" name="Add-ons by gaixixon" version="1.0.2" provider-name="gaixixon">
 	<extension point="xbmc.addon.repository" name="gaixixon's Add-ons">
-		<info compressed="false">https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml</info>
+		<info compressed="true">https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/gaixixon/kodi/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/gaixixon/kodi/master/</datadir>
+		<hashes>true</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install gaixixon's add-ons</summary>
