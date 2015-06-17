@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.gxx.f18"
+       name="Film 18+"
+       version="1.0.1"
+       provider-name="gaixixon">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch hot 18++ contents online</summary>
+        <description lang="en">Stream full 18+ movies from multiple sources.</description>
+	   <forum>http://forums.addons.center/board/21-gaixixon-addons/</forum>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider(s). Any likeness' portrayed do not endorse/support the author, sites or content within.</disclaimer>
+        <platform>all</platform>
+    </extension>
+    </addon>
