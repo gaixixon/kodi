@@ -20,8 +20,8 @@
     </addon>
 
 <addon id="plugin.gxx.film"
-       name="FilmOn"
-       version="1.1.14"
+       name="FilmVCL"
+       version="1.1.15"
        provider-name="gaixixon@gmail.com">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
