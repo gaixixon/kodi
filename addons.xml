@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.gxx.f18"
-       name="Film 18+"
-       version="1.0.1"
+       name="Film 18++"
+       version="1.0.9"
        provider-name="gaixixon">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
