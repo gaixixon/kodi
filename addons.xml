@@ -21,11 +21,10 @@
 
 <addon id="plugin.gxx.film"
        name="FilmVCL"
-       version="1.1.17"
+       version="1.1.18"
        provider-name="gaixixon@gmail.com">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-	   <import addon="plugin.video.youtube"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
